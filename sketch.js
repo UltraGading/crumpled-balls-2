@@ -17,7 +17,7 @@ createCanvas(800, 700);
 engine = Engine.create();
 world = engine.world;
 Engine.run(engine);
-paper1 = new Paper(100,300,20)
+paper1 = new Paper(100,300,40)
 bin = createSprite(680,600,20,20);
 bin.addImage(binImg);
 bin.scale = 0.45;
@@ -29,7 +29,7 @@ groundSprite.shapeColor = '#ffc600'
 }
 
 function draw() {
-  background(0);
+  background('#c7ff3f');
   paper1.display()
   dustbin1.display()
   drawSprites();
